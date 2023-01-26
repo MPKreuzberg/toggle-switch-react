@@ -1,11 +1,11 @@
-import profile from "./assests/profile.jpeg"
+import profile from "./assests/profile.jpeg";
 import { useState } from "react";
 import "./App.css";
 import {
+  Button,
   Card,
   CardHeader,
   Switch,
-  CardContent,
   Box,
   Container,
   Typography,
@@ -57,6 +57,10 @@ function App() {
       >
         <CssBaseline />
         <Container>
+          <div className="Button">
+          <Button variant="contained">test Button</Button>
+          </div>
+        
           <div classname="App">
             <Box component="div" p={4}>
               {" "}
@@ -77,12 +81,11 @@ function App() {
               <Typography variant="h3" component="h3">
                 <div className="container">
                   <div className="hPage">Hi i'm Igor !</div>
-                  
                 </div>
               </Typography>
-              <img src = {profile} alt="profile" className = "App-logo" />
-              <Typography className="body1" variant="body1" >
-                Dark mode is { isDarkTheme ? "ON" : "OFF" }
+              <img src={profile} alt="profile" className="App-logo" />
+              <Typography className="body1" variant="body1">
+                Dark mode is {isDarkTheme ? "ON" : "OFF"}
               </Typography>
             </Card>
           </div>
