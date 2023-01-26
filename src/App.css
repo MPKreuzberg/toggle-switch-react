@@ -9,9 +9,10 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    border-radius: 10%;
+    padding: 2rem;
+
   }
-}
 
 .App-header {
   background-color: #282c34;
@@ -36,3 +37,19 @@
     transform: rotate(360deg);
   }
 }
+
+.hPage {
+  background-color: #777777;
+  color: white;
+  padding: 1rem;
+}
+.body1 {
+  background-color: #777777;
+  color: white;
+  padding: 2rem;
+  margin: 2rem;
+  
+}
+
+}
+
